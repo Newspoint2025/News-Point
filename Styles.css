@@ -1,0 +1,103 @@
+.Title {
+    text-align: center;
+    text-emphasis-color: rgb(255, 0, 0);
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+    
+}
+
+.Sub_Title_main {
+    display: block;
+    text-align: center;
+    align-self: center;
+    text-emphasis-color: rgb(255, 0, 0);
+    color: red;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+}
+
+.Sub_Title_main .dark_mode {
+    color: red !important
+}
+
+
+.Image {
+    text-align: center;
+    align-content: center;
+    margin-bottom: 50px;
+    object-fit: contain;
+    align-self: center;
+    
+    
+
+    
+}
+
+
+
+.Sub_Title {
+    display: block;
+    align-content: center;
+    text-emphasis-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+    
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+
+    
+}
+
+.Image_article {
+    text-align: center;
+    align-content: center;
+    margin-bottom: 50px;
+    width: 430px;
+    object-fit: contain;
+    align-self: center;    
+}
+
+.Web_Url{
+    font-size: 50px;
+    
+    text-align: center;
+    margin-bottom: 500px;
+    
+}
+
+body{
+    background-color: white;
+    color: black;
+
+}
+
+body.dark_mode a{
+    color: white !important;
+}
+
+.dark_mode{
+    background-color: black;
+    color: white;
+}
+
+
+
+button{
+    cursor: pointer;
+    transition-duration: 1s;
+    border-radius: 500px;
+    font-size: 16px;
+    background-color: antiquewhite;
+}
+
+button:hover{
+    background-color: gray;
+}
